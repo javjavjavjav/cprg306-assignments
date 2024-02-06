@@ -1,13 +1,12 @@
 import React from "react";
 
-const Item = ({ name, quantity, category}) => {
-    return (
-        <li className="flex justify-between p-2 border-b border-gray-200">
-            <span className="font-bold">{name}</span>
-            <span>{quantity}</span>
-            <span className="text-gray-500">{category}</span>
-        </li>
-    );
-};
-
-export default Item;
+export default function Item({ name, quantity, category }) {
+  return (
+    <div className="bg-slate-900 w-full max-w-xs m-2 p-1 w-full md:w-2/3">
+      <h3 className="text-xl font-bold">{name}</h3>
+      <p>
+        Buy {quantity} in {category}
+      </p>
+    </div>
+  );
+}
