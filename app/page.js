@@ -12,6 +12,9 @@ const StudentInfo = () => {
         <li>
           <Link href="http://localhost:3000/week-3">Week-3</Link>
         </li>
+        <li>
+          <Link href="http://localhost:3000/week-4">Week-4</Link>
+        </li>
         </ul>
     </div>
   );
