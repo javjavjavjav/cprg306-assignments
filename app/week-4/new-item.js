@@ -37,7 +37,7 @@ export default function NewItem() {
 
   return (
     <main>
-      <div className="min-h-screen bg-green-800 flex items-center justify-center">
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
           <h1 className="text-2xl text-gray-800 font-bold mb-8">
             Add Items to Cart
@@ -106,7 +106,7 @@ export default function NewItem() {
             </div>
             <button
               type="submit"
-              className="px-4 py-2 border border-gray-300 rounded-md bg-green-600 text-white"
+              className="px-4 py-2 border border-gray-300 rounded-md bg-slate-900 text-white"
             >
               Submit
             </button>
