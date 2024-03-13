@@ -22,10 +22,10 @@ export default function NewItem({ onAddItem }) {
   };
 
   return (
-    <div className="flex justify-left items-center h-">
+    <div className="flex justify-center items-center h-">
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded px-14 pt-8 pb-8 mb-2"
+        className="bg-white shadow-md rounded px-14 pt-6 pb-8 mb-4"
       >
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
